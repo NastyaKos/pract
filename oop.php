@@ -50,5 +50,3 @@ $Builder = new Builder();
 $Director = new Director($Builder);
 $Director -> construct();
 $Product = $Builder -> getResult();
-
-
