@@ -9,12 +9,14 @@ class Automobile
     {
         $this->vehicleMake = $make;
         $this->vehicleModel = $model;
+        
     }
 
     public function getMakeAndModel()
     {
         return $this->vehicleMake . ' ' . $this->vehicleModel;
     }
+
 }
 
 class AutomobileFactory
@@ -23,6 +25,7 @@ class AutomobileFactory
     {
         return new Automobile($make, $model);
     }
+
 }
 $veyron = AutomobileFactory::create('Bugatti', 'Veyron');
 
