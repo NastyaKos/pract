@@ -21,6 +21,6 @@ function binarySearch(Array $arr, $x)
     }
     return false;
 }
-$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+$arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 $value = 4;
 echo binarySearch($arr, $value);
