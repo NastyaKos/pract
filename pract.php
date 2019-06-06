@@ -1,4 +1,5 @@
 <?php
+header('Content-type: application/json');
 
 function dirtree($dir, $regex='')
 {
