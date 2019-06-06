@@ -1,5 +1,5 @@
 <?php
-
+header('Content-type: text/plain');
 
 function binarySearch(Array $arr, $x)
 {
