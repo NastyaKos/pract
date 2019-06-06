@@ -1,5 +1,5 @@
 <?php
-
+header('Content-type: text/plain');
 function dirtree($dir, $regex='')
 {
     if (!$dir instanceof DirectoryIterator) {
